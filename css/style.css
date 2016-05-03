@@ -10,16 +10,21 @@
 }
 #right{
 	position: relative;
-	left: 480px;
+	left: 445px;
 }
-#scores{
+.scores{
 	float: right;
-	padding: 3px 30px;
-	width: 20px;	
 }
 .text1{
 	border:1px white solid;
 	border-bottom-color: black;
 	padding: 3px 10px;
 	width: 100px;
+}
+.my-height{
+	height: 80px;
+	line-height: 80px;
+}
+.my-fontfimary{
+	font-family: "微软雅黑";
 }
