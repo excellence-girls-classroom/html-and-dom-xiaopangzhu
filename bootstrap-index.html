@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>统一建模语言理论测试</title>
+    <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <h2 class="col-md-8 text-center bg-success my-height my-fontfimary">统一建模语言理论测试</h2>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+                <span>考试时间：100分钟</span>
+            </div>
+            <div class="col-md-2">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <span>总分:</span>
+                        <input type="text" id="scores" class="text1">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <label>班级：<input type="text" id="myclass" class="text1"></label>
+                        <label>学号：<input type="text" id="sno" class="text1"></label>
+                        <label>姓名：<input type="text" id="name" class="text1"></label><br>
+                    </div>
+                </form>
+                <br>
+                <div class="well well-transparent">
+                    <h4 class="my-fontfimary">一、填空题(30分)</h4>
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <span>1. UML 的中文全称是:</span><input type="text" class="text1" id="exercise1_1">。(15分)
+                        </div>
+                    </form>
+                    <form class="form-inline">
+                        <div class="from-group">
+                            <span>2. 对象最突出的特征是:</span>
+                            <input type="text" class="text1" id="exercise1_2_1">、
+                            <input type="text" class="text1" id="exercise1_2_2">、
+                            <input type="text" class="text1" id="exercise1_2_3">。(15分)
+                        </div>
+                    </form>
+                    <br>
+                    <h4 class="my-fontfimary">二、选择题(20分)</h4>
+                    <p>1. UML 与软件工程的关系是（）(10分)</p>
+                    <div class="radio">
+                        <label><input type="radio" name="radio1">A. UML 就是软件工程</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio1">B. UML 参与到软件工程中软件开发过程的几个阶段</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio1">C. UML 与软件工程无关</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio1" id="result2_1">D. UML 是软件工程的一部分</label>
+                    </div>
+                    <p>2. Java 语言支持（）(10分)</p>
+                    <div class="radio">
+                        <label><input type="radio" name="radio2">A. 单继承</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio2">B. 多继承</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio2" id="result2_2">C. 单继承和多继承都支持</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio2">D. 单继承和多继承都不支持</label>
+                    </div>
+                    <br>
+                    <h4 class="my-fontfimary">三、多选题(30分)</h4>
+                    <p>1. 用例的粒度分为以下哪三种。(15分)</p>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="result3_1_1">A. 概述级</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="result3_1_2">B. 需求级</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox">C. 用户目标级</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="result3_1_3">D. 子功能级</label>
+                    </div>
+                    <p>2. 类图由以下哪三部分组成。(15分)</p>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="result3_2_1">A. 名称(Name)</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="result3_2_2">B. 属性(Attribute)</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" id="result3_2_3">C. 操作(Operation)</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox">D. 方法(Function)</label>
+                    </div>
+                    <br>
+                    <h4 class="my-fontfimary">四、判断题(20分)</h4>
+                    <p>1. 用例图只是用于和客户交流和沟通的,用于确定需求。(10分)
+                    <label class="checkbox-inline">
+                        <input type="radio" name="radio3">是
+                        <input type="radio" name="radio3" id="result4_1">否
+                    </label></p>
+                    <p>2. 在状态图中,终止状态在一个状态图中允许有任意多个。(10分)
+                    <label class="checkbox-inline">
+                        <input type="radio" name="radio4" id="result4_2">是
+                        <input type="radio" name="radio4">否
+                    </label></p>
+                    <label class="checkbox-inline"><input type="submit" class="btn btn-info" id="submit" value="提交">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+  </body>
+</html>
